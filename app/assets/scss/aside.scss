@@ -1,0 +1,52 @@
+.l- {
+    &aside {
+        padding: 15px;
+        overflow: hidden;
+        float: left;
+
+        &--main {
+            width: 100%;
+            @media only screen and (min-width: 767px) {
+                max-width: 30%;
+            }
+            float: left;
+        }
+    }
+}
+
+.o- {
+    &aside {
+        padding: 15px;
+    }
+}
+
+.c- {
+    &aside-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        &-item {
+            float: left;
+            width: 100%;
+            clear: both;
+            margin-bottom: 5px;
+
+            a {
+                padding: 10px;
+                border: 1px solid $lightGrey;
+                background-color: $lightestGrey;
+                text-decoration: none;
+                color: $offBlack;
+                float: left;
+                width: 100%;
+
+                &:hover {
+                    color: $white;
+                    border: 1px solid $grey;
+                    background-color: $grey;
+                }
+            }
+        }
+    }
+}

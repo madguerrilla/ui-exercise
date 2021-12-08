@@ -1,0 +1,30 @@
+// Colors
+
+// Shades
+$black: #000;
+$offBlack: #1e1e1e;
+$darkGrey: #222;
+$grey: #666;
+$lightGrey: #ccc;
+$lightestGrey: #ececec;
+
+// White
+$white: #fff;
+$offWhite: #fefefe;
+
+// Primaries
+$red: #f00;
+$green: #0f0;
+$blue: #00f;
+
+$primaries: (
+	red: $red,
+	green: $green,
+	blue: $blue
+);
+
+// Default font colour
+$fontColor: $offBlack;
+
+// Default background colour
+$bgColor: $offWhite;

@@ -1,0 +1,33 @@
+{
+    "pages": [{
+            "title": "Vlisco",
+            "image": "vlisco.jpg",
+            "content": "E-commerce with a colourful story"
+        },
+        {
+            "title": "Copenhagen Airports",
+            "image": "copenhagen.jpg",
+            "content": "Knowing your customer in the digital age"
+        },
+        {
+            "title": "TV4 Play",
+            "image": "tv4.jpg",
+            "content": "For TV channel to leading content provider"
+        },
+        {
+            "title": "Audi City",
+            "image": "audi.jpg",
+            "content": "How to purchase a real car in a virtual store"
+        },
+        {
+            "title": "Arla Foods",
+            "image": "arla.jpg",
+            "content": "Dairy production in big data"
+        },
+        {
+            "title": "Xylem",
+            "image": "xylem.jpg",
+            "content": "Helping the world's largest water technology provider solve the global water crisis through business transformation"
+        }
+    ]
+}

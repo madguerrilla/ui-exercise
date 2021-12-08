@@ -1,0 +1,36 @@
+.o- {
+    &header {
+        width: 100%;
+        background-color: rgba($lightestGrey, 0.5);
+        border-bottom: 1px solid $lightestGrey;
+        margin: 0 auto;
+        float: left;
+        padding: 15px 0;
+        &-list {
+            margin: 0 auto;
+            list-style: none;
+            padding: 0;
+            &-item {
+                float: left;
+                margin: 0 10px;
+                a {
+                    color: $fontColor;
+                    text-decoration: none;
+                    border-radius: 3px;
+                    padding: 5px 10px;
+                    &:hover {
+                        background-color: $fontColor;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.c- {
+    &header {
+        display: flex;
+        justify-content: center;
+    }
+}
